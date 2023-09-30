@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: black;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.root {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.textSize {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.textSize:hover {
+    color: rgb(66, 64, 161) !important;
+}
+
+.photos {
+    width: 100%;
+    border-radius: 20px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photos img {
+    margin: 5px 5px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+#userName {
+    color: white;
+    padding-top: 10vw;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#uName {
+    color: white;
+    text-align: center;
+    margin: 1.5vw 10vw;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 2px 2px #ff0000;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px;
+}
+
+.abt {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.abt:hover {
+    transform: scale(1, .9);
+}
+
+.webDev {
+    border-left: 1px solid rgb(83, 82, 82);
+    border-right: 1px solid rgb(83, 82, 82);
+}
+
+.webDev {}
+
+.serv:hover {
+    background-color: rgb(37, 78, 76);
+    color: white;
+    border-radius: 10px;
+}
+
+.para {
+    margin-left: 5vw !important;
+}
+
+.cssBar {
+    margin-top: 15px !important;
+}
+
+.names {
+    margin-top: 40px;
+    margin-left: 70px !important;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.names:hover {
+    color: blue;
+}
+
+/* .contact {
+    border-left: 1px solid rgb(83, 82, 82);
+} */
+
+.hostel {
+    margin: 10px 80px;
+}
